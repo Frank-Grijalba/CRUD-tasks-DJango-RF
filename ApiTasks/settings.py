@@ -72,6 +72,17 @@ MIDDLEWARE = [
 
 # CORS_ORIGINS_ALLOW_ALL = True
 
+CORS_ALLOW_ALL_ORIGINS = True
+
+CORS_ALLOW_METHODS = [
+'DELETE',
+'GET',
+'OPTIONS',
+'PATCH',
+'POST',
+'PUT',
+]
+
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:4200',
     'http://localhost:8000',
