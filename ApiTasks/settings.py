@@ -134,7 +134,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'es-co'
 
-TIME_ZONE = 'America/Colombia/Bogota'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
